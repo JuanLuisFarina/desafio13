@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "desafio11-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fork" : "node main.js --port 8080 --modo fork",
+    "cluster" : "node main.js --port 8080 --modo cluster"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "minimist": "^1.2.7",
+    "mongoose": "^6.6.7",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "socket.io": "^4.5.3"
+  }
+}
